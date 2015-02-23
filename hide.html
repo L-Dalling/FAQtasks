@@ -1,0 +1,65 @@
+<!Doctype HTML>
+<html>
+ <head>
+ 	<title>FAQs Task</title>
+ 	<link rel="stylesheet" type="text/css" href="hide.css">
+ 	<script type="text/javascript" src="jquery-2.1.3.min.js"></script>
+ 	<script type="text/javascript" src="javascript.js"></script>
+
+  </head>
+
+
+<body>
+
+<ul class="topbar text-center">
+ 
+        <li class="bar" rel="hbar"><a href="#">Home</a>
+          <div id="hbar">venenatis</div>
+        </li>
+
+        <li class="bar"  rel="serbar"><a href="#">Service</a>
+           <div id="serbar">mentenatis</div>
+        </li>
+
+        <li class="bar" rel="abar"><a href="#">About Us</a>
+           <div id="abar">venenatis</div>
+        </li>
+
+        <li class="bar"  rel="probar"><a href="#">Product</a>
+           <div id="probar">mentumatis</div>
+        </li>
+
+        <li class="bar" rel="conbar"><a href="#">Contact</a>
+           <div id="conbar">tumvenenas</div>
+        </li> 
+    
+</ul>
+<div>
+	I don't want this to hide
+</div>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+    $(".bar").click(function(){
+     $(this).attr('rel');
+       $('#'+this).hide();
+    });
+  
+     $(".bar").click(function(){
+     var tap_bar = $(this).attr('rel');
+       $('#'+tap_bar).show();
+    });
+
+});
+
+
+</script>
+
+
+
+
+
+
+</body>
+</html>

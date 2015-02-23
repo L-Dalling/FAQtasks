@@ -1,0 +1,11 @@
+.topbar div{
+	display:none;
+}
+.topbar li{
+	list-style:none;
+    float:left;
+    padding-left:15px;
+    font-size:24px;
+    color:blue;
+    font-family:lato;
+}
